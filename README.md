@@ -30,7 +30,7 @@ pnpm start
 * **Write a script to seed the database with the emissions in `fixtures/emissions.csv.gz`.** The script should read the gzipped file and save the data to a MongoDB collection efficiently.
 * **Create a `GET` endpoint to query the seeded emissions data by siteId and equipmentId.** The endpoint should allow for querying based on a time range, and to filter by a confidence threshold.
 
-Use your best judgement to implement a performant endpoint including validations and error handling. Consider how the endpoint may be used internally or by potential customers.
+Use your best judgement to implement a performant endpoint, and include validations and error handling.
 
 ### Additional Notes
 
