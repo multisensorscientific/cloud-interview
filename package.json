@@ -1,0 +1,28 @@
+{
+  "name": "@kuva/interview-challenge",
+  "private": true,
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.{js,json,jsx,md}\"",
+    "format:check": "prettier --check \"**/*.{js,json,jsx,md}\""
+  },
+  "keywords": [],
+  "author": "Sensirion Connected Solutions",
+  "license": "See LICENSE",
+  "dependencies": {
+    "fastify": "^5.6.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.0.0",
+    "prettier": "^3.3.0"
+  },
+  "volta": {
+    "node": "24.12.0"
+  }
+}
